@@ -1,194 +1,153 @@
 module.exports = {
-  name: "Jens Ihrig",
-  title: "Senior Frontend Engineer",
+  name: "Jan-Derk Pries",
+  title: "Stellv. Leiter technische Ausbildung",
   facts: {
     "Ak. Grad": {
       icon: "graduation-cap",
-      text: "Diplom Informatiker (FH)",
+      text: "Fachinformatiker für Anwendungsentwicklung",
     },
     Geburtstag: {
       icon: "asterisk",
-      text: "09.01.1977",
+      text: "27.11.1994",
     },
     Wohnort: {
       icon: "home",
-      text: "Freiburg im Breisgau",
+      text: "Wiesbaden, Köln",
     },
     "E-Mail": {
       icon: "envelope",
-      text: '<a href="lebenslauf@jensihrig.de">lebenslauf@jensihrig.de</a>',
+      text: '<a href="jan-derk-pries@hotmail.de">jan-derk-pries@hotmail.de</a>',
     },
   },
   techskills: [
     ["HTML5", "+++++"],
-    ["CSS3", "++++"],
-    ["JSS", "++"],
-    ["Javascript", "+++++"],
-    ["Typescript", "++++"],
-    ["React", "++++"],
-    ["Redux", "++"],
-    ["Svelte", "+"],
-    ["Jest", "+++"],
-    ["Cypress", "++"],
-    ["Playwright", "++"],
+    ["CSS3", "+++"],
+    ["Bootstrap", "++"],
+    ["Javascript", "++++"],
+    ["Typescript", "++"],
+    ["SQL", "++"],
+    ["Node.js", "++++"],
+    ["Angular", "+"],
+    ["C#", "+++"],
+    ["Python", "++"],
+    ["Docker", "++"],
     ["Webpack", "+++"],
-    ["Vite/Rollup", "++"],
-    ["CI/DevOps", "+"],
-    ["Magnolia CMS", "+"],
-    ["HUGO/Golang", "++"],
+    ["Siemens S7", "++"],
+    ["TwinCat", "+"],
+    ["C", "+"],
   ],
 
   methodskills: [
     ["Scrum", "++++"],
     ["Kanban", "+++"],
-    ["Clean Code", "++++"],
-    ["TDD", "++"],
-    ["XP/Pair", "++"],
-    ["DDD", "+"],
+    ["Clean Code", "+++"],
   ],
 
   jobs: [
     {
-      title: "Senior Frontend Engineer",
-      company: "JobRad GmbH, Freiburg im Breisgau",
-      datespan: "September 2022 bis heute",
-      badges: [
-        "javascript",
-        "typescript",
-        "html",
-        "css",
-        "kanban",
-        "cleancode",
-        "magnolia",
-      ],
+      title: "Stellvertretender Leiter technische Ausbildung",
+      company: "Poly-clip System GmbH & Co. KG",
+      datespan: "Juni 2024 bis heute",
       contents: `
-* Technische Verantwortung und Betrieb der Unternehmenswebsite sowie des zugrunde liegenden Content Management Systems Magnolia als Mitglied des neu gegründeten CMS Platform Teams im Bereich Digitalisierung und Systeme
-* Weiterentwicklung des Magnolia Frontends mittels HTML5, Javascript, CSS3, React, Preact, Webcomponents und Freemarker 
-* Mitglied der A11Y Taskforce, welche die Verbesserung der Barrierefreiheit von Portalen und der Unternehmenswebsite sowie die Festlegung von A11Y Standards für das Unternehmen zum Ziel hat
-* Relaunch und Redesign der Unternehmenswebsite
-* Herauslösen einzelner Assets wie z.B der Fachhändlersuche oder des Vorteilsrechners als Web Components oder Microfrontends
-* Überführung des Teams in die neue Product & Tech Organisation als internes Plattformteam
-* Interims Teamlead Frontend Engineering
-* Beratung bei der Auswahl von Bewerbern
-* Durchführung von Bewerbungsgesprächen und Coding Interviews
-      `,
-    },
-    {
-      title: "Senior UX Engineer",
-      company: "JobRad GmbH, Freiburg im Breisgau",
-      datespan: "November 2021 bis August 2022",
-      badges: [
-        "javascript",
-        "html",
-        "css",
-        "kanban",
-        "cleancode",
-        "magnolia",
-        "react",
-      ],
-      contents: `
-* Technische Verantwortung und Betrieb der Unternehmenswebsite sowie des zugrunde liegenden Content Management Systems Magnolia als Mitglied im Team Online Marketing
-* Weiterentwicklung des Magnolia Frontends  mittels HTML5, Javascript, CSS3 und Freemarker 
-* Proof of Concept für die Headless Ausspielung von Content aus Magnolia heraus in React.js basierte Portale
-* Technische Beratung bei der Entwicklung eines Design Systems für das Unternehmen
-* Etablierung des bereichsübergreifenden CMS Platform Teams
-      `,
-    },
-    {
-      title: "Senior Frontend Developer & Teamlead",
-      company: "ETECTURE GmbH, Karlsruhe",
-      datespan: "Januar 2016 bis Oktober 2021",
-      badges: [
-        "react",
-        "javascript",
-        "typescript",
-        "html",
-        "css",
-        "scrum",
-        "kanban",
-        "cleancode",
-        "xp",
-        "tdd",
-        "ddd",
-      ],
-      contents: `
-#### Softwareentwicklung 
-
-* Agile Entwicklung des Frontends mittels React.js und Freemarker Templates von diversen Anwendungen für Kunden in der Automotive und Logistik Branche
-* Konzeption und Entwicklung von Microfrontend-Architekturen und eines Microfrontend-Frameworks für den konzernweiten Einsatz beim Kunden
-* Umsetzung von Design Systemen in UI Bibliotheken und Distribution per NPM für den konzernweiten Einsatz beim Kunden 
-* Entwicklung von Living Styleguides (Eingenentwicklungen und mit Storybook)
-*	Zusammenarbeit mit UX-Experten, Designern und Informations Architekten
-* Projektübergreifende Koordination von internen und externen Teammitgliedern (Freelance, Nearshore, Offshore)
-* Beratung von Product Ownern und Projektleitern (intern und auf Kundenseite)
-* Übernahme der Rolle des Technischen Product Owners in mehreren Projekten
-
 #### Führung
 
-* Fachliche Führung von mehreren Mitarbeiter/innen in enger Abstimmung mit disziplinarischen Vorgesetzten und Personalabteilung
+* Fachliche Führung von 16 Auszubildenden in enger Abstimmung mit disziplinarischen Vorgesetzten und
+* Personalabteilung
 * Durchführung von regelmäßigen Feedbackgesprächen
 * Auswahl und Unterstüzung bei Fort- und Weiterbildungsmaßnahmen
-*	Beratung beim Staffing von Projekten
-*	Beratung bei der Auswahl von Bewerbern und Freelance Kollegen
+* Beratung bei der Auswahl von Bewerbern
 
 #### Business Development
 
-* Mitbestimmung bei der technologischen und methodischen Ausrichtung des Standorts
-* Standortweite Prozessentwicklung (z.B. Staffing, Checkliste Best Practices für Projektdurchführung etc.)
-* Unterstützende technologische Einschätzung von New Business sowie Mitwirkung bei der Erstellung von Angeboten
+* Mitbestimmung bei der technologischen und methodischen Ausrichtung des Standorts innerhalb derAusbildungswerkstatt
+* Unterstützende technologische Einschätzung von New Business sowie Mitwirkung bei der Erstellung vonAngeboten
+* Entwicklung eines modernen und einheitlichen Ausbildungskonzepts
+
+#### Budgetverantwortung
+
+* Planung und Aufstellung des Budgets basierend auf den Zielen und Anforderungen der Organisation oder des
+* Projekts
+* Überwachung, Kontrolle und regelmäßige Überprüfung der Ausgaben, rechtzeitiges Ergreifen von
+* Maßnahmen bei Abweichungen
+* Dokumentation und Kommunikation von Budgetentwicklungen
+* Berichten über die Verwendung von Mitteln und die Einhaltung der Budgetvorgaben
+      `,
+    },
+    {
+      title: "Monteur Bereich Konstruktion, Entwicklung & Prototypenbau",
+      company: "Poly-clip System GmbH & Co. KG",
+      datespan: "Juli 2023 bis Mai 2024",
+      badges: [
+        "Siemens S7",
+        "TwinCat3",
+        "Python",
+        "C"
+      ],
+      contents: `
+* Programmieren von SPS-Steuerungen in Siemens s7 und TwinCAT
+* Programmieren und einrichten von diversen Robotern
+* Montage von pneumatischen, elektrotechnischen und mechanischen Komponenten
+* Konstruktion und Fertigung diverser Teststation
+* Verbesserung der abteilungsinternen Lagerlogistik
+      `,
+    },
+    {
+      title: "Ausbildung Mechatroniker",
+      company: "Poly-clip System GmbH & Co. KG",
+      datespan: "September 2021 bis Juli 2023",
+      contents: `
+* Aufbauen von Sensor-Aktor Topologien
+* Einrichten von Subnetzen zur Steuerung der Indsutrie 4.0
 `,
     },
     {
-      title: "Web-Developer",
-      company: "Key-Work Consulting GmbH, Karlsruhe",
-      datespan: "Juli 2003 bis Dezember 2015",
-      badges: ["javascript", "html", "css", "kanban", "cleancode"],
+      title: "Nebentätigkeit IT Beratung / Webdesign",
+      company: "Wolf Pries GbR",
+      datespan: "April 2018 bis Juni 2020",
+      badges: ["javascript", "html", "css", "JQuery", "cleancode"],
       contents: `
-* Konzeption und Entwicklung von Web-Anwendungen auf Basis von PHP, Java EE, OfBiz und Grails
-* Schwerpunkt dabei im Frontend-Bereich mittels HTML5, Javascript, JQuery, CSS3, Highcharts, JSP, Freemarker und GSP  
-* Vereinheitlichung, Standardisierung und Modernisierung der Web-Oberflächen von Anwendungen aus verschiedenen Systemen innerhalb von Portalen
+* Entwicklung von Webseiten mittels HTML5, Javascript, JQuery, CSS3 für Kleinunternehmen
+* Konzeption von Websites und umsetzen der Kundenwünsche
 
       `,
     },
     {
-      title: "Praktikant IT Webdevelopment",
-      company: "IBM e-business Innovation Center, Hamburg",
-      datespan: "Juni 2001 - Oktober 2001",
-      badges: ["html", "javascript", "css"],
+      title: "Ausbildung Fachinformatiker für Anwendungsentwicklung",
+      company: "Metacarp GmbH",
+      datespan: "August 2016 bis Juli 2019",
+      badges: ["html", "javascript", "css", "C#", "Bootstrap", "JQuery", "Node.js", "VB.Net", "SQL"],
       contents: `
 Entwicklung von Anwendungsoberflächen und Websites mittels HTML, CSS, Javascript und Macromedia Flash
 `,
+    }
+  ],
+
+  parttime: [
+    {
+      title: "Weltreise (Backpacking)",
+      org: "",
+      datespan: "Januar 2015 bis Juli 2016",
+      contents: ``,
     },
     {
-      title: "Werkstudent",
-      company: "net-solution GmbH, Heddesheim",
-      datespan: "Januar 2000 - Dezember 2001",
-      badges: ["html", "javascript", "css"],
-      contents: `
-Entwicklung diverser Unternehmenswebsites mittels HTML, CSS, Javascript
-`,
+      title: "Bundesweht und diverse technische Praktika",
+      org: "",
+      datespan: "Juli 2013 bis Dezember 2014",
+      contents: ``,
     },
   ],
 
   education: [
     {
-      title: "Medieninformatik",
-      org: "Fachhochschule Heidelberg",
-      datespan: "Oktober 1999 - September 2002",
-      contents: `
-Diplomarbeit "Neuentwicklung und Bewertung von Interaktionselementen" in der Usability-Abteilung der IBM Entwicklung GmbH, Böblingen
-`,
-    },
-    {
-      title: "Kommunikationsinformatik",
-      org: "Fachhochschule Harz, Wernigerode",
-      datespan: "Oktober 1998 - Mai 1999",
+      title: "Studium Bachelor of Engineering (ohne Abschluss)",
+      org: "Hochschule Rüsselsheim",
+      datespan: "September 2019 bis August 2021",
       contents: ``,
     },
     {
-      title: "Abitur",
-      org: "Hebel Gymnasium, Schwetzingen",
-      datespan: "1987 - 1997",
+      title: "Fachhochschulreife mit dem Schwerpunkt Elektrotechnik",
+      org: "Berufskolleg Geldern",
+      datespan: "Juni 2013",
       contents: ``,
     },
   ],
@@ -197,18 +156,18 @@ Diplomarbeit "Neuentwicklung und Bewertung von Interaktionselementen" in der Usa
     {
       header: "Sprachkenntnisse",
       contents: `
-* Deutsch (C2)
-* Englisch (B2-C1) 
+* Deutsch Muttersprache
+* Englisch sehr gut
+* Führerschein B
 `,
     },
 
     {
       header: "Hobbys",
       contents: `
-*	Kochen und Foodblogging
-*	Reisen
-*	(elektronische) Musik
-*	Wandern. Radfahren, Joggen
+* Projekte mit Microcontrollern
+* Repaircafe
+* Makerspace
       `,
     },
   ],

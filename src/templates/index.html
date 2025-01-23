@@ -20,31 +20,7 @@
             <div class="row">
                 <div class="col-md-6 col-print-6">
                     <h1><b>{{ name }}</b><br />{{ title }}</h1>
-                    <p>
-                        <time
-                            datetime="{{ buildinfo.date }}"
-                            class="text-muted screen"
-                            >Letztes Update: {{ updated }}</time
-                        >
-                    </p>
-                    <p>
-                        <span class="screen"
-                            ><a href="{{ pdfFileName }}"
-                                ><i
-                                    class="fa fa-file-pdf-o"
-                                    aria-hidden="true"
-                                ></i
-                                >PDF Version</a
-                            ></span
-                        >
-                        <span class="print"
-                            >Die Online Version befindet sich hier:
-                            <a href="{{ baseUrl }}" class="text-nowrap"
-                                ><i class="fa fa-github" aria-hidden="true"></i
-                                >{{ baseUrl }}</a
-                            ></span
-                        >
-                    </p>
+                    <img src="/home/jd/projects/lebenslauf/src/Profilbild.jpg" alt="Profilbild" width="42" height="42" style="float:left">
                 </div>
                 <div class="col-md-6 col-print-6">
                     <dl class="row">
